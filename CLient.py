@@ -1,6 +1,6 @@
 import socket
-tcp = "192.168.0.101"
-port = 5005
+tcp = socket.gethostbyname(socket.gethostname())
+port = 9001
 buffer = 1024
 message = "hello"
 s=socket.socket(socket.AF_INET,socket.SOCK_STREAM)
