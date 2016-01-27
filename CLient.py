@@ -1,5 +1,5 @@
 import socket
-tcp = socket.gethostbyname(socket.gethostname())
+tcp = <NOTE: copy the IP address of the server using the command socket.gethostbyname(socket.gethostname()) >
 port = 9001
 buffer = 1024
 message = "hello"
